@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Website Bootstarp</title>
+    <link rel="stylesheet" href="css/line-awesome.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+   <!--NAVBAR-->
+
+   <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">DIDAR.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reservation">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-brand">Order Online</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!--HERO SLIDER-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item text-center active vh-100 bg-cover active slide-1">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">WELCOME TO QRISPY</h6>
+              <h1 class="display-1 text-white fw-bold">Char-grilled and flower-filled</h1>
+              <a href="#" class="btn btn-brand">Reservation</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      <div class="carousel-item active vh-100 bg-cover active slide-2">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">WELCOME TO QRISPY</h6>
+              <h1 class="display-1 text-white fw-bold">Fresh & Tasty Food</h1>
+              <a href="#" class="btn btn-brand">Reservation</a>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+     
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--section about-->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-5">
+          <img src="images/blog4.jpg" alt="">
+        </div>
+        <div class="col-lg-5">
+          <h1>About US</h1>
+          <span class="my-4"></span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, repellendus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut omnis eveniet quisquam, doloribus labore voluptate eligendi in totam illum nesciunt.</p>
+          <a href="#" class="btn btn-brand">Explore Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!--section memu-->
+   <section id="menu" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intor-text">
+          <h1>Explore Our Menu</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam sunt qui cumque sit quo? Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+  
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL Items</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast" aria-selected="true">Breakfast</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link " id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+        </li>
+
+
+      </ul>
+  
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog5.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog6.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog7.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog8.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog9.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog10.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog11.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog1.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show " id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab" tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog5.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog6.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog7.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog8.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show " id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab" tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog9.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog10.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog11.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog1.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade show " id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab" tabindex="0">
+          <div class="row gy-4">
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog7.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog8.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog9.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="images/blog10.jpg" alt="">
+                <div class="memu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star"></i>
+                      <i class="las la-star-half-alt"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salmon to a fresh salad made with chickpeas, arugula, herds and olives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      </div>
+
+
+
+   </section>
+
+   <!--section features-->
+   <section id="features" class="bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intor-text">
+          <h1 class="text-white">Why to choose us?</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam sunt qui cumque sit quo? Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 px-4 text-center">
+            <div class="feature-icon">
+              <i class="las la-wifi"></i>
+            </div>
+            <h4 class="text-white mb-2 mt-4">Free Wifi</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, voluptatum.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 px-4 text-center">
+            <div class="feature-icon">
+              <i class="las la-haykal"></i>
+            </div>
+            <h4 class="text-white mb-2 mt-4">Haigly star</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, voluptatum.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 px-4 text-center">
+            <div class="feature-icon">
+              <i class="las la-user-tie"></i>
+            </div>
+            <h4 class="text-white mb-2 mt-4">Friendly Staff</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, voluptatum.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 px-4 text-center">
+            <div class="feature-icon">
+              <i class="las la-hourglass-end"></i>
+            </div>
+            <h4 class="text-white mb-2 mt-4">Fast Delivery</h4>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, voluptatum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!--section TEAM-->
+
+   <section id="team">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 intor-text">
+          <h1 class="text-black">Our Team Menbers</h1>
+          <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam sunt qui cumque sit quo? Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-member py-5 px-4 border shadow-on-hover text-center">
+            <img src="images/rounded.jpg" alt="">
+            <div class="team-member-content">
+              <h4 class="mb-0 mt-4">Didar Hasan</h4>
+              <p class="mb-0">Main Chef</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-member py-5 px-4 border shadow-on-hover text-center">
+            <img src="images/rounded.jpg" alt="">
+            <div class="team-member-content">
+              <h4 class="mb-0 mt-4">Didar Hasan</h4>
+              <p class="mb-0">Main Chef</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-member py-5 px-4 border shadow-on-hover text-center">
+            <img src="images/rounded.jpg" alt="">
+            <div class="team-member-content">
+              <h4 class="mb-0 mt-4">Didar Hasan</h4>
+              <p class="mb-0">Main Chef</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6">
+          <div class="team-member py-5 px-4 border shadow-on-hover text-center">
+            <img src="images/rounded.jpg" alt="">
+            <div class="team-member-content">
+              <h4 class="mb-0 mt-4">Didar Hasan</h4>
+              <p class="mb-0">Main Chef</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!--section Reviews-->
+   <section id="reviews" class="bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intor-text">
+          <h1 class="text-white">Our Clients Say</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam sunt qui cumque sit quo? Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+
+      <div id="reviewsSlider" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#reviewsSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#reviewsSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+           <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="review bg-white py-5 text-center">
+               <div class="quote-icon"><i class="las la-quote-left"></i></div>
+               <p class="mb-0 p-4">There are many variations of passages of have suffered alteration in some form, by injected huour, or randomised words which don`t liik even slightly beliveable . if you ae going to sue a passage of Lorem ipsum, you need to by sour there isn`t</p>
+               <div class="person mt-4">
+                <img src="images/didar1 (1).jpg" alt="">
+                <h4 class="mb-0 mt-2">Didar Hasan</h4>
+                <div class="stars">
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star-half-alt"></i>
+                </div>
+               </div>
+              </div>
+            </div>
+           </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="review bg-white py-5 text-center">
+                 <div class="quote-icon"><i class="las la-quote-left"></i></div>
+                 <p class="mb-0 p-4">There are many variations of passages of have suffered alteration in some form, by injected huour, or randomised words which don`t liik even slightly beliveable . if you ae going to sue a passage of Lorem ipsum, you need to by sour there isn`t</p>
+                 <div class="person mt-4">
+                  <img src="images/didar1 (2).jpg" alt="">
+                  <h4 class="mb-0 mt-2">Didar Hasan</h4>
+                  <div class="stars">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star-half-alt"></i>
+                  </div>
+                 </div>
+                </div>
+              </div>
+             </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewsSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewsSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+   </section>
+
+   <!--section Reservation-->
+   <section id="reservation" class="bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intor-text">
+          <h1 >Book Your Table</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam sunt qui cumque sit quo? Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+      <form action="#" class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="Full name">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" placeholder="Email address">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="Date">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="Time">
+            </div>
+            <div class="form-group col-md-12">
+              <textarea name="" rows="4" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group col-md-12 text-center">
+              <a href="#" class="btn btn-brand">Send Message</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+   </section>
+
+   <!--insta Posts -->
+
+ <div class="row g-0">
+  <div class="col-lg-3 col-sm-6">
+    <div class="insta-posts">
+      <img src="images/blog9.jpg" alt="">
+      <a href="#" class="instra-btn"><i class="lab la-instagram"></i></a>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 col-sm-6">
+    <div class="insta-posts">
+      <img src="images/blog10.jpg" alt="">
+      <a href="#" class="instra-btn"><i class="lab la-instagram"></i></a>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 col-sm-6">
+    <div class="insta-posts">
+      <img src="images/blog6.jpg" alt="">
+      <a href="#" class="instra-btn"><i class="lab la-instagram"></i></a>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 col-sm-6">
+    <div class="insta-posts">
+      <img src="images/blog7.jpg" alt="">
+      <a href="#" class="instra-btn"><i class="lab la-instagram"></i></a>
+    </div>
+  </div>
+ </div>
+
+ <!--Blog POst-->
+ 
+ <section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 intor-text">
+        <h1>Blog Posts</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam sunt qui cumque sit quo? Lorem, ipsum dolor.</p>
+      </div>
+    </div>
+    <div class="row gy-4">
+      <div class="col-sm-6">
+        <div class="blog-post d-flex shadow-on-hover">
+          <img src="images/blog1.jpg" alt="">
+          <div class="blog-post-content p-4">
+            <p>Posted: 25 Dec,2022</p>
+            <h4><a href="#">How to make delicious food</a></h4>
+            <p>Consetetur adipisicing elit. Consequatur. architecto quisquam. comque!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="blog-post d-flex shadow-on-hover">
+          <img src="images/blog2.jpg" alt="">
+          <div class="blog-post-content p-4">
+            <p>Posted: 25 Dec,2022</p>
+            <h4><a href="#">How to make delicious food</a></h4>
+            <p>Consetetur adipisicing elit. Consequatur. architecto quisquam. comque!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="blog-post d-flex shadow-on-hover">
+          <img src="images/blog3.jpg" alt="">
+          <div class="blog-post-content p-4">
+            <p>Posted: 25 Dec,2022</p>
+            <h4><a href="#">How to make delicious food</a></h4>
+            <p>Consetetur adipisicing elit. Consequatur. architecto quisquam. comque!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="blog-post d-flex shadow-on-hover">
+          <img src="images/blog4.jpg" alt="">
+          <div class="blog-post-content p-4">
+            <p>Posted: 25 Dec,2022</p>
+            <h4><a href="#">How to make delicious food</a></h4>
+            <p>Consetetur adipisicing elit. Consequatur. architecto quisquam. comque!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+ <!--foooter section-->
+
+ <footer class="bg-cover">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-4">
+          <img src="images/logo.png" alt="">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius voluptates maxime cum quasi dolorem!</p>
+          <div class="social-links">
+            <a href="#"><i class="lab la-facebook-f"></i></a>
+            <a href="#"><i class="lab la-instagram"></i></a>
+            <a href="#"><i class="lab la-youtube"></i></a>
+            <a href="#"><i class="lab la-google-plus"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 ms-auto">
+          <h6 class="text-white mb-4">CONTACT</h6>
+          <p class="mb-2">p:+01518700852</p>
+          <p class="mb-2">hasandidar852@gmai.com</p>
+          <p class="mb-0">A: 14 Paramore Street Mornigtion Victoria 3552</p>
+        </div>
+        <div class="col-lg-3 ">
+          <h6 class="text-white mb-4">OPENING HOURS</h6>
+          <p class="mb-2">Monday-Friday : 08.00- 22.00</p>
+          <p class="mb-2">atuday-Sunday 08.00-22.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row justify-content-between gy-3">
+        <div class="col-auto">
+          <p class="mb-0">Copyrights all rights reserved</p>
+        </div>
+        <div class="col-auto">
+          <p class="mb-0">Desigend By Didar <a href="#">Hasan</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </footer>
+
+
+
+<!--js file-->
+    <script src="./js/jqeuery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
